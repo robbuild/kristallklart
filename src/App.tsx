@@ -32,8 +32,8 @@ function App() {
     },
     {
       Icon: Home,
-      title: "Lyxvillor",
-      description: "Premium rengöringstjänster för exklusiva bostäder",
+      title: "Villor",
+      description: "Premium rengöringstjänster för villor och radhus",
       image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=2071",
       features: [
         "Invändig & utvändig rengöring",
@@ -57,7 +57,7 @@ function App() {
             <div className="grid grid-cols-3 h-full">
               <img
                 src="https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&q=80&w=2070"
-                alt="Fönsterputs skyskrapa"
+                alt="Fönsterputsning av skyskrapor"
                 className="object-cover w-full h-full"
               />
               <img
@@ -67,7 +67,7 @@ function App() {
               />
               <img
                 src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=2071"
-                alt="Lyxvilla"
+                alt="villor"
                 className="object-cover w-full h-full"
               />
             </div>
@@ -78,7 +78,7 @@ function App() {
             Professionell Fönsterputs<br />för Alla Höjder
           </h1>
           <p className="text-xl text-gray-200 mb-8">
-            Specialiserade på höghus, skyskrapor och lyxfastigheter
+            Specialiserade på höghus, skyskrapor och villor
           </p>
           <a
             href="#contact"
