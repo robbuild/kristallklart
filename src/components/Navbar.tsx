@@ -43,7 +43,7 @@ export default function Navbar() {
             <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-orange-500">Kontakt</a>
             <a href="tel:08-12345678" className="flex items-center px-3 py-2 text-orange-500 font-semibold">
               <Phone className="w-4 h-4 mr-2" />
-              08-123 45 67
+              070-887 28 81
             </a>
           </div>
         </div>

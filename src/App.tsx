@@ -185,7 +185,7 @@ function App() {
             <div>
               <h3 className="text-xl font-bold mb-4">Kontakt</h3>
               <p className="text-gray-400">E-post: info@kristallklart.se</p>
-              <p className="text-gray-400">Telefon: 08-123 45 67</p>
+              <p className="text-gray-400">Telefon: 070-887 28 81</p>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Öppettider</h3>
