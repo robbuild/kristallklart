@@ -10,7 +10,7 @@ function App() {
       Icon: Building2,
       title: "Skyskrapor",
       description: "Professionella rengöringslösningar för höghus och kommersiella byggnader",
-      image: "https://plus.unsplash.com/premium_photo-1693966067360-f4035e7541e6?q?auto=format&fit=crop&q=80&w=2070",
+      image: "https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&q=80&w=2070",
       features: [
         "Reparbete för rengöring",
         "Högtryckstvätt",
@@ -32,8 +32,8 @@ function App() {
     },
     {
       Icon: Home,
-      title: "Villor",
-      description: "Premium rengöringstjänster för villor och radhus",
+      title: "Lyxvillor",
+      description: "Premium rengöringstjänster för exklusiva bostäder",
       image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=2071",
       features: [
         "Invändig & utvändig rengöring",
@@ -57,7 +57,7 @@ function App() {
             <div className="grid grid-cols-3 h-full">
               <img
                 src="https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&q=80&w=2070"
-                alt="Fönsterputsning av skyskrapor"
+                alt="Fönsterputs skyskrapa"
                 className="object-cover w-full h-full"
               />
               <img
@@ -67,7 +67,7 @@ function App() {
               />
               <img
                 src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=2071"
-                alt="villor"
+                alt="Lyxvilla"
                 className="object-cover w-full h-full"
               />
             </div>
@@ -78,7 +78,7 @@ function App() {
             Professionell Fönsterputs<br />för Alla Höjder
           </h1>
           <p className="text-xl text-gray-200 mb-8">
-            Specialiserade på höghus, skyskrapor och villor
+            Specialiserade på höghus, skyskrapor och lyxfastigheter
           </p>
           <a
             href="#contact"
@@ -185,7 +185,7 @@ function App() {
             <div>
               <h3 className="text-xl font-bold mb-4">Kontakt</h3>
               <p className="text-gray-400">E-post: info@kristallklart.se</p>
-              <p className="text-gray-400">Telefon: 070-887 28 81</p>
+              <p className="text-gray-400">Telefon: 08-123 45 67</p>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Öppettider</h3>
