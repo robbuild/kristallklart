@@ -3,6 +3,7 @@ import { Building2, Building, Home, Shield, Star, Timer, ArrowRight } from 'luci
 import Navbar from './components/Navbar';
 import WhatsAppButton from './components/WhatsAppButton';
 import ServiceCard from './components/ServiceCard';
+import { images } from './constants/images';
 
 function App() {
   const services = [
@@ -10,7 +11,7 @@ function App() {
       Icon: Building2,
       title: "Skyskrapor",
       description: "Professionella rengöringslösningar för höghus och kommersiella byggnader",
-      image: "https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&q=80&w=2070",
+      image: images.services.commercial,
       features: [
         "Reparbete för rengöring",
         "Högtryckstvätt",
@@ -22,7 +23,7 @@ function App() {
       Icon: Building,
       title: "Flerfamiljshus",
       description: "Regelbunden underhållsservice för bostadskomplex",
-      image: "https://images.unsplash.com/photo-1669071192880-0a94316e6e09?auto=format&fit=crop&q=80&w=2070",
+      image: images.services.residential,
       features: [
         "Schemalagt underhåll",
         "Rengöring av gemensamma utrymmen",
@@ -34,7 +35,7 @@ function App() {
       Icon: Home,
       title: "Lyxvillor",
       description: "Premium rengöringstjänster för exklusiva bostäder",
-      image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=2071",
+      image: images.services.luxury,
       features: [
         "Invändig & utvändig rengöring",
         "Rengöring av solpaneler",
@@ -56,17 +57,17 @@ function App() {
             <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 to-gray-900/70 z-10"></div>
             <div className="grid grid-cols-3 h-full">
               <img
-                src="https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&q=80&w=2070"
+                src={images.hero.skyscraper}
                 alt="Fönsterputs skyskrapa"
                 className="object-cover w-full h-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1669071192880-0a94316e6e09?auto=format&fit=crop&q=80&w=2070"
+                src={images.hero.apartment}
                 alt="Flerfamiljshus"
                 className="object-cover w-full h-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=2071"
+                src={images.hero.villa}
                 alt="Lyxvilla"
                 className="object-cover w-full h-full"
               />
