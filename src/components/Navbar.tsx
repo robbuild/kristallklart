@@ -22,9 +22,9 @@ export default function Navbar() {
             <a href="#about" className="text-gray-700 hover:text-orange-500">Om Oss</a>
             <a href="#projects" className="text-gray-700 hover:text-orange-500">Projekt</a>
             <a href="#contact" className="text-gray-700 hover:text-orange-500">Kontakt</a>
-            <a href="tel:+4670-887 28 81" className="flex items-center text-orange-500 font-semibold">
+            <a href="tel:+468-123 45 67" className="flex items-center text-orange-500 font-semibold">
               <Phone className="w-4 h-4 mr-2" />
-              070-887 28 81
+              08-123 45 67
             </a>
           </div>
 
@@ -43,7 +43,7 @@ export default function Navbar() {
             <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-orange-500">Kontakt</a>
             <a href="tel:08-12345678" className="flex items-center px-3 py-2 text-orange-500 font-semibold">
               <Phone className="w-4 h-4 mr-2" />
-              070-887 28 81
+              08-123 45 67
             </a>
           </div>
         </div>
