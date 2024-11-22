@@ -10,7 +10,7 @@ function App() {
       Icon: Building2,
       title: "Skyskrapor",
       description: "Professionella rengöringslösningar för höghus och kommersiella byggnader",
-      image: "https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&q=80&w=2070",
+      image: "https://plus.unsplash.com/premium_photo-1693966067360-f4035e7541e6?q?auto=format&fit=crop&q=80&w=2070",
       features: [
         "Reparbete för rengöring",
         "Högtryckstvätt",
