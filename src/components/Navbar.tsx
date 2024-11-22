@@ -1,5 +1,6 @@
 import { Menu, Phone, X } from 'lucide-react';
 import { useState } from 'react';
+import { images } from '../constants/images';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
